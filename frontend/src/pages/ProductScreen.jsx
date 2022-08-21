@@ -34,7 +34,7 @@ const ProductScreen = () => {
     const fetchData = async () => {
       dispatch({type: 'FETCH_REQUEST'});
       try {
-        const result = await axios.get(`/api/products/id/${{_id}}`);
+        const result = await axios.get(`/api/products/slug/${{slug}}`);
         dispatch({type: 'FETCH_SUCCESS', payload: result.data});
       } catch(err) {
         dispatch({type: 'FETCH_FAIL', payload: err.message});
@@ -44,12 +44,12 @@ const ProductScreen = () => {
     }
     fetchData();
 
-  }, [_id]);
+  }, [slug]);
 
   
 
     const params = useParams();
-    const {_id} = params;
+    const {slug} = params;
 
     
   return loading ? (<h1 className='loading'>Loading...</h1>) : error ? (<h1 className='error'>{error}</h1>) : ( <p>{product.title}</p>);

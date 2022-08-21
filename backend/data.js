@@ -41,6 +41,7 @@ const data = {
         {
             _id: 1,
             title:'Iphone 13 Pro Max',
+            slug: 'product1',
             desc: 'Description for Product',
             category: 'Mobile Phones',
             image:'/images/p1.jpg',
@@ -50,6 +51,7 @@ const data = {
         {
             _id: 2,
             title:'Samsung s7 Tablet',
+            slug: 'product2',
             desc: 'Description for Product',
             category: 'Tablet',
             image:'/images/p2.jpg',
@@ -59,6 +61,7 @@ const data = {
         {
             _id: 3,
             title:'Pixel 7',
+            slug: 'product3',
             desc: 'Description for Product',
             category: 'Mobile Phones',
             image:'/images/p3.jpg',
@@ -68,6 +71,7 @@ const data = {
         {
             _id: 4,
             title:'Airpod Max',
+            slug: 'product4',
             desc: 'Description for Product',
             category: 'Accesories',
             image:'/images/p4.jpg',
@@ -77,6 +81,7 @@ const data = {
         {
             _id: 5,
             title:'ESR Screen Protector',
+            slug: 'product5',
             desc: 'Description for Product', 
             category: 'Accesories',
             image:'/images/p5.jpg',
