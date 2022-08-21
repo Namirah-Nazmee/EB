@@ -15,7 +15,7 @@ function App() {
       <div className='App'>
         <Routes>
           <Route  path='/' element={<Home />}/>
-          <Route path='/product/:_id' element={<ProductScreen />} />
+          <Route path='/product/:slug' element={<ProductScreen />} />
           <Route  path='/login' element={<Login />}/>
           <Route  path='/wish' element={<Wish />}/>
           <Route  path='/cart' element={<Cart />}/>

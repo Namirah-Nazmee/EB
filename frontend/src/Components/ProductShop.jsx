@@ -13,7 +13,7 @@ const ProductShop = ({item}) => {
   return (
     <div className='ps-card' >
         <div className="card-header">
-            <Link to={`/product/${item.title}`}>
+            <Link to={`/product/${item.slug}`}>
               <img src={item.image} alt={item.title} />
             </Link>
         </div>
