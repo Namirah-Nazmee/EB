@@ -1,0 +1,22 @@
+.screen-container{
+    min-height: 80vh;
+    border: 1px solid black;
+}
+
+.screen-col{
+    min-height: 80vh;
+    padding: 20px 11px;
+}
+
+.screen-row{
+    display: flex;
+    min-height: 100vh;
+}
+
+.screen-col:first-child{
+    flex: 3;
+ }
+
+.screen-col:last-child{
+    flex: 2;
+}

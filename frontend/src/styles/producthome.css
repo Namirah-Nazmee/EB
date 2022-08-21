@@ -1,0 +1,74 @@
+.hp-card{
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.458);
+    margin: 0 16px 16px 16px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-header img{
+
+    width: 100%;
+}
+
+
+.hp-card:hover  .card-header img{
+    transform: scale(1.06);
+
+
+}
+.card-body{
+    text-align: center;
+    padding: 11px 6px;
+}
+
+.card-body span{
+    margin-top: 6px;
+}
+
+.card-footer{
+    display:  flex;
+    padding: 15px 5px;
+    justify-content: space-around;
+}
+
+.card-footer button{
+    padding: 6px 16px;
+    border: none;
+    transition: all 1s;
+    background-color: transparent;
+}
+
+.card-footer button:hover{
+    transform: translateY(-8px);
+}
+
+.card-footer button:first-child{
+    background-color: coral;
+    color: aliceblue;
+}
+
+.card-footer button:nth-child(2){
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.card-footer button:last-child{
+    background-color: rgb(236, 153, 165);
+    color: aliceblue;
+}
+
